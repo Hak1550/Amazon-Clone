@@ -1,0 +1,75 @@
+.Header {
+  height: 60;
+  display: flex;
+  background-color: #231f20;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  align-items: center;
+}
+.Header-Logo-img {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 15px;
+  margin-top: 10px;
+  color: white;
+}
+.Header-Search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  /* border-radius: 24px; */
+  justify-content: center;
+}
+
+.Header-Search-Input {
+  padding: 7px;
+  width: 100%;
+  border: none;
+}
+
+.Header-Search-Icon {
+  color: white;
+  padding: 3px;
+  background-color: #f3a847;
+  cursor: pointer;
+}
+.Header-nav {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-evenly;
+}
+.FlagLogo {
+  height: 35px;
+  width: 35px;
+  object-fit: contain;
+  margin-top: 8px;
+}
+.Header-nav-Option {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 8px;
+  cursor: pointer;
+}
+.Option-Line-1 {
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.Option-Line-2 {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 800;
+}
+.AddCartCounter {
+  margin: auto;
+  color: #f3a847;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.AddCardIcon {
+  font-size: 22px !important;
+}

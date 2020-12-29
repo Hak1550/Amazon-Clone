@@ -1,0 +1,12 @@
+.DeliveryAlert {
+  padding: 12px 0;
+  color: black;
+  background-color: #d8f7eb;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 780;
+  margin-left: 15px;
+}
+.LearnMore {
+  color: blue;
+}
